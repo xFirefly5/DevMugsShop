@@ -32,7 +32,7 @@ function Cart() {
                 :
                 <div className="empty">
                     <h2>Your Cart Is Empty.</h2>
-                    <Link to="/"><button>Go Shopping</button></Link>
+                    <Link to="/DevMugsShop"><button>Go Shopping</button></Link>
                 </div>
                }
         </div>
