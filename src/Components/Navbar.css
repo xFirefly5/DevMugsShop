@@ -1,0 +1,78 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #1b2a41;
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+    z-index: 2;
+}
+.Navbar h2{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.cart-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart-div a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color:inherit;
+    margin-right: 0.4rem;
+    font-weight: 700;
+}
+.cart-div span{
+    background-color: #ef233c;
+    padding: 7px;
+    clip-path: circle();
+    margin-left: -8px;
+    margin-top: 20px;
+    position: relative;
+}
+.em-shopping_trolley{
+    font-size: 1.5rem;
+}
+.Navbar h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.em-gift{
+    margin: 0 0.8rem;
+    font-size: 1.3rem;
+}
+
+span:hover {
+    color: #00b4d8;
+    /* animation: myAnim 2s ease 0s 1 normal forwards; */
+}
+
+
+@media only screen and (max-width: 450px) {
+    .Navbar {
+        padding: 5px;
+        padding-top: 20px;
+        /* width: auto; */
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Navbar h1{
+      font-size: 1.6rem;
+    }
+    #cart{
+        font-size: 1.1rem;
+    }
+    .Navbar h2{
+      font-size: 0.7rem;
+      text-align: center;
+    }
+    .em-gift{
+        font-size: 0.9rem;
+    }
+    .em-shopping_trolley{
+        font-size: 1rem;
+    }
+}

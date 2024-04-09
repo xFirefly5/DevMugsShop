@@ -1,0 +1,118 @@
+.Cart{
+    position: relative;
+    top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+.cart-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Cart h1{
+    margin: 2rem;
+}
+
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.checkout p {
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+.checkout .options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.checkout button{
+    cursor: pointer;
+    width: 12rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border:none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.checkout button:hover {
+    background-color: #0077b6;
+    color: whitesmoke;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+.checkout .continueShopp{
+    width: 15rem;
+}
+.checkout .continueShopp:hover {
+    background-color: #957fef;
+    color: whitesmoke;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+
+.empty{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.empty h2{
+    font-size: 3rem;
+}
+.empty button{
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 18rem;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    outline: none;
+    border:none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.empty  button:hover {
+    background-color: #957fef;
+    color: whitesmoke;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+
+@media only screen and (max-width: 450px){
+   
+    .checkout .options{
+        flex-direction: column;
+    }
+    .checkout{
+        width: 400px;
+    }
+    .checkout .options{
+        width: auto;
+    }
+    .checkout p{
+        font-size: 1.6rem;
+    }
+    .empty h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .empty button{
+        font-size: 1.3rem;
+        padding: 10px 10px;
+    }
+}
+
+
+

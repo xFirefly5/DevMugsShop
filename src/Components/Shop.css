@@ -1,0 +1,18 @@
+.Shop{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 4rem;
+    position: relative;
+    top: 12rem;
+    margin: 0 10rem;
+    /* padding-bottom: 5rem; */
+}
+
+@media only screen and (max-width: 450px){
+    .Shop{
+        top: 15rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 2rem;
+    }
+}

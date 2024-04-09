@@ -1,0 +1,21 @@
+.Footer{
+    background-color: rgba(0, 255, 255, 0.142);
+    position: relative;
+    top: 24.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer p{
+    margin: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 450px){
+    .Footer p{
+        margin: 1.4rem 1.1rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,84 @@
+.ProductPage{
+    position: relative;
+    top: 15rem;
+    display: flex;
+    width: 100%;
+    padding: 2rem 20rem;
+    background-color: #add8f6d5;
+   
+}
+.ProductPage .info{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.info h2, .desc, .price, button{
+    margin-bottom: 1rem;
+}
+.info h2{
+    font-size: 2.5rem;
+}
+.info .desc{
+    font-size: 1.1rem;
+}
+.info .price{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.theBtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.info button{
+    cursor: pointer;
+    width: 12rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border:none;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.info button:hover {
+    background-color: #0077b6;
+    color: whitesmoke;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+.ProductPage img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .ProductPage{
+        flex-direction: column;
+        padding: 2.8rem;
+        top: 18rem;
+    }
+    .ProductPage .info{
+        margin-left: 0;
+        width: auto;
+    }
+    .info h2{
+        font-size: 1.8rem;
+    }
+    .info .desc{
+        font-size: 1rem;
+    }
+    .ProductPage img{
+        width: 300px;
+        border-radius: 20px;
+    }
+    .theBtns{
+        width: 450px;
+        flex-direction: column;
+    }
+}
