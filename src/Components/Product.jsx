@@ -11,7 +11,7 @@ function Product({ product }) {
         <div className="product">
             <img src={product.productImg} alt={product.productImg} />
             <div className="product-info">
-                <Link to={`https://xfirefly5.github.io/DevMugsShop/product/${product.id}`}><h2>{product.productName}</h2></Link>
+                <Link to={`/DevMugsShop/product/${product.id}`}><h2>{product.productName}</h2></Link>
                 <h3>US $ {product.price}</h3>
                 <button onClick={() => addToCart(product.id)}>Add To Cart { cartItemAmout > 0 && `(${cartItemAmout})`}</button>
             </div>

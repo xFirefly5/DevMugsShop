@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="https://xfirefly5.github.io/DevMugsShop" element={<App/>} />
+        <Route path="/DevMugsShop" element={<App/>} />
       </Routes>
     </Router>
   </React.StrictMode>,
