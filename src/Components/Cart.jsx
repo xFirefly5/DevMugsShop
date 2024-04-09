@@ -25,14 +25,14 @@ function Cart() {
                         <p>Subtotal: <b>${totalAmount}</b></p>
                         <div className="options">
                             <button>Checkout</button>
-                            <Link to="/DevMugsShop"><button className="continueShopp">Continue Shopping</button></Link>
+                            <Link to="https://xfirefly5.github.io/DevMugsShop"><button className="continueShopp">Continue Shopping</button></Link>
                         </div>
                     </div>
                 </div>
                 :
                 <div className="empty">
                     <h2>Your Cart Is Empty.</h2>
-                    <Link to="/DevMugsShop"><button>Go Shopping</button></Link>
+                    <Link to="https://xfirefly5.github.io/DevMugsShop"><button>Go Shopping</button></Link>
                 </div>
                }
         </div>
