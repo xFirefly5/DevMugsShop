@@ -5,6 +5,7 @@
     padding: 2rem;
     border-radius: 20px;
     box-shadow: 3px 5px 9px -1px #1b2a41;
+    width: 100%;
 }
 
 .product-info{
