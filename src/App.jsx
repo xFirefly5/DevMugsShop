@@ -13,9 +13,9 @@ function App() {
         <ShopContextProvider>
           <Navbar/>
           <Routes>
-            <Route exact path="/" element={<Shop />} />
-            <Route exact path="/cart" element={<Cart />} />
-            <Route exact path="/product/:id" element={<ProductPage />} />
+            <Route exact path="/DevMugsShop" element={<Shop />} />
+            <Route exact path="/DevMugsShop/cart" element={<Cart />} />
+            <Route exact path="/DevMugsShop/product/:id" element={<ProductPage />} />
           </Routes>
 
         </ShopContextProvider>
