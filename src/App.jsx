@@ -17,7 +17,6 @@ function App() {
             <Route exact path="/DevMugsShop/cart" element={<Cart />} />
             <Route exact path="/DevMugsShop/product/:id" element={<ProductPage />} />
           </Routes>
-
         </ShopContextProvider>
       </Router>
       <Footer/>

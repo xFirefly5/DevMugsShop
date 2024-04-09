@@ -20,7 +20,7 @@ function ProductPage() {
                 <p className="price">US $ {item.price}</p>
                 <div className="theBtns">
                     <button onClick={() => addToCart(item.id)}>Add To Cart{ cartItemAmout > 0 && `(${cartItemAmout})`}</button>
-                    <Link to="/"><button>Shop More</button></Link>
+                    <Link to="/DevMugsShop"><button>Shop More</button></Link>
                 </div>
             </div>
         </div>

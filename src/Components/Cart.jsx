@@ -25,7 +25,7 @@ function Cart() {
                         <p>Subtotal: <b>${totalAmount}</b></p>
                         <div className="options">
                             <button>Checkout</button>
-                            <Link to="/"><button className="continueShopp">Continue Shopping</button></Link>
+                            <Link to="/DevMugsShop"><button className="continueShopp">Continue Shopping</button></Link>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Navbar() {
             </h2>
             
             <div className="cart-div">
-                <Link to="/cart" id="cart">Cart</Link>
+                <Link to="/DevMugsShop/cart" id="cart">Cart</Link>
                 <i className="em em-shopping_trolley" aria-label="SHOPPING TROLLEY"></i><span>{totalCartItems}</span>
             </div>
         </nav>
