@@ -1,13 +1,12 @@
 .CartItem {
-    background-color: #d7e3fc37;
+    background-color: white;
     display: flex;
     align-items: center;
     width: 900px;
     margin: 0 auto;
     padding: 1rem;
-    border-right: 3px solid rgba(128, 128, 128, 0.344);
-    border-bottom: 3px solid rgba(128, 128, 128, 0.344);
     margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .CartItem img{
     width: 200px;
@@ -62,29 +61,83 @@ input[type="number"]{
 
 @media only screen and (max-width: 450px){
     .cart-cart{
-        width: 400px;
-  
-        
+        width: 400px;    
     }
     .CartItem{
         flex-direction: column;
-        width: 400px;
+        width: 300px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        margin-bottom: 10px;
     }
     .CartItem img{
         width: 150px;
     }
     .description .name{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .description .price{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     .description .count-handler{
         text-align: center;
     }
 }
+@media (min-width: 450px) and (max-width: 600px){
+    .cart-cart{
+        width: 400px;    
+    }
+    .CartItem{
+        flex-direction: column;
+        width: 550px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .CartItem img{
+        width: 170px;
+    }
+    .description .name{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .description .price{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .description .count-handler{
+        text-align: center;
+    }
+}
+@media (min-width: 600px) and (max-width: 992px){
+    .cart-cart{
+        width: 400px;    
+    }
+    .CartItem{
+        flex-direction: column;
+        width: 550px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .CartItem img{
+        width: 170px;
+    }
+    .description .name{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .description .price{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .description .count-handler{
+        text-align: center;
+    }
+}
+

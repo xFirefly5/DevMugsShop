@@ -1,4 +1,5 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import "./App.css"
 import Navbar from "./Components/Navbar"
 import Cart from './Components/Cart'
 import Shop from './Components/Shop'
@@ -18,8 +19,8 @@ function App() {
             <Route exact path="/DevMugsShop/product/:id" element={<ProductPage />} />
           </Routes>
         </ShopContextProvider>
+        <Footer/>
       </Router>
-      <Footer/>
     </div>
   )
 }

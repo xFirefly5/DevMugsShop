@@ -16,3 +16,29 @@
         margin: 0 2rem;
     }
 }
+@media (min-width: 450px) and (max-width: 600px) {
+    .Shop{
+        top: 15rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 3rem;
+    }
+}
+@media (min-width: 600px) and (max-width: 992px){
+    .Shop{
+        top: 15rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 7rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1400px){
+    .Shop{
+        top: 15rem;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 0 7rem;
+        gap:5rem;
+    }
+}
+
+
+
+

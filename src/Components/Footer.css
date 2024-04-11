@@ -1,5 +1,5 @@
 .Footer{
-    background-color: rgba(0, 255, 255, 0.142);
+    background-color: white;
     position: relative;
     top: 24.6rem;
     display: flex;
@@ -12,10 +12,23 @@
     font-weight: 700;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
+    .Footer{
+        top: 24.6rem;
+    }
     .Footer p{
         margin: 1.4rem 1.1rem;
         font-size: 0.9rem;
+        text-align: center;
+    }
+}
+@media (min-width: 600px) and (max-width: 700px){
+    .Footer{
+        top: 26rem;
+    }
+    .Footer p{
+        margin: 1.4rem 1.1rem;
+        font-size: 1.4rem;
         text-align: center;
     }
 }

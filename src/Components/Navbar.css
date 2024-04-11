@@ -32,6 +32,7 @@
     margin-left: -8px;
     margin-top: 20px;
     position: relative;
+    font-size: 1rem;
 }
 .em-shopping_trolley{
     font-size: 1.5rem;
@@ -66,7 +67,7 @@ span:hover {
         font-size: 1.1rem;
     }
     .Navbar h2{
-      font-size: 0.7rem;
+      font-size: 1rem;
       text-align: center;
     }
     .em-gift{
@@ -74,5 +75,54 @@ span:hover {
     }
     .em-shopping_trolley{
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .Navbar {
+        padding: 20px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .Navbar h1{
+        font-size: 1.5rem;
+    }
+    #cart{
+        font-size: 1.2rem;
+    }
+    .cart-div span{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .Navbar h2{
+    font-size: 1rem;
+    text-align: center;
+    }
+    .em-shopping_trolley{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 800px) and (max-width: 992px){
+    .Navbar {
+        padding: 20px;
+        padding-top: 20px;
+        flex-direction: row;
+    }
+    .Navbar h1{
+        font-size: 1.4rem;
+    }
+    #cart{
+        font-size: 1.5rem;
+    }
+    .cart-div span{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .Navbar h2{
+    font-size: 1.1rem;
+    text-align: center;
+    }
+    .em-shopping_trolley{
+        font-size: 1.3rem;
     }
 }

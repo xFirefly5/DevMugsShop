@@ -1,5 +1,5 @@
 .product{
-    background-color: #d8dbe2c6;
+    background-color: white;
     display: flex;
     align-items: center;
     padding: 2rem;
@@ -24,13 +24,12 @@
 }
 .product h2{
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .product h3{
     font-weight: 700;
     font-size: 1.5rem;
 }
-
 .product-info button, h2, h3{
     margin: 0.5rem 0;
 }
@@ -42,6 +41,7 @@
     font-weight: 500;
     outline: none;
     border:none;
+    background-color: aliceblue;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
     transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
 }
@@ -75,5 +75,24 @@
         padding: 7px;
         width: 10rem;
     }
- 
+}
+@media (min-width: 992px) and (max-width: 1400px){
+    .product{
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    .product h2,.product h3{
+        font-size: 1.5rem;
+    }
+    .product-info button{
+        font-size: 1.3rem;
+        padding: 7px;
+        width: 13rem;
+    }
 }

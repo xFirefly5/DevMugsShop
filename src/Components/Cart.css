@@ -67,15 +67,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 13.4rem;
 }
 .empty h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .empty button{
     margin-top: 2rem;
     cursor: pointer;
-    width: 18rem;
-    padding: 15px;
+    width: 15rem;
+    padding: 12px;
     font-size: 1.5rem;
     font-weight: 500;
     outline: none;
@@ -91,7 +92,6 @@
 }
 
 @media only screen and (max-width: 450px){
-   
     .checkout .options{
         flex-direction: column;
     }
@@ -105,12 +105,51 @@
         font-size: 1.6rem;
     }
     .empty h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: center;
     }
     .empty button{
         font-size: 1.3rem;
-        padding: 10px 10px;
+        padding: 6px;
+        width: 200px;
+    }
+    .empty{
+        margin-bottom: 254px;
+    }
+}
+@media (min-width: 450px) and (max-width: 600px){
+    .Cart{
+        top: 10rem;
+    }
+    .checkout .options{
+        flex-direction: row;
+    }
+    .checkout{
+        width: 600px;
+    }
+    .checkout button{
+        font-size: 1.4rem;
+    }
+    .checkout p{
+        font-size: 1.6rem;
+    }
+    .empty h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .empty button{
+        font-size: 1.3rem;
+        padding: 6px;
+        width: 200px;
+    }
+    .empty{
+        margin-bottom: 254px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .Cart{
+        top: 11rem;
     }
 }
 
